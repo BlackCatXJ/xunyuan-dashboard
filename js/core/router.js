@@ -1,0 +1,1 @@
+'use strict';XunYuan.register('router',{initial(){const h=location.hash.replace('#/','');return({forecast:'forecast',dispatch:'dispatch',network:'network',chain:'chain'})[h]||'overview';},normalize(){if(location.hash!=='#/overview')history.replaceState(null,'','#/overview');}});

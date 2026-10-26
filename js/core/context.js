@@ -1,0 +1,1 @@
+'use strict';XunYuan.register('context',{defaults:()=>({regionId:'REG-JJJ',source:'all',chemistry:'all',view:'industry',month:'2026-10',horizon:3,mode:'overview',scenario:'normal'}),normalize(c){const d={...this.defaults(),...c};d.horizon=Math.max(3,Math.min(6,Number(d.horizon)||3));return d;}});

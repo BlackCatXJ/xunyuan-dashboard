@@ -1,0 +1,1 @@
+'use strict';XunYuan.register('store',(()=>{let state={},listeners=new Set();return{init(s){state=s;},get:()=>state,set(patch){state={...state,...patch};for(const f of listeners)f(state);},subscribe(f){listeners.add(f);return()=>listeners.delete(f);}};})());

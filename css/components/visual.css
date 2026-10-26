@@ -1,0 +1,46 @@
+/* REV-015 / DES-001. Styling only: values, labels, objects and routes are unchanged. */
+body{background:radial-gradient(ellipse at 50% 30%,#0d3033 0,transparent 64%),var(--bg)}
+.masthead{background: url('../../resource/images/header-trace.svg') center bottom/80% 35px no-repeat;border-bottom-color:#27626880}
+.masthead::after{background:linear-gradient(90deg,transparent,var(--cyan),var(--green),var(--cyan),transparent);opacity:.7;box-shadow:0 0 12px #55d9c633}
+.brand img{width:40px;height:40px;filter:drop-shadow(0 0 6px #b4f47330)}
+.brand strong{font-weight:650;letter-spacing:3px}.brand>span{color:#88b2b0}
+.screen-title>span{font-weight:650;text-shadow:0 2px 16px #55d9c615}.screen-title small{color:#99b7ad}
+.tiny-label,.scope-name,.horizon-label{color:#9fbcb7}.icon-tool{border-color:#28555c;color:#b5d1cd;background:#0b232680}
+input,select,.region-button{background:#081e23;border-color:#2a585e;color:#d1e5df;box-shadow:inset 0 1px #8fffe807}
+input:hover,select:hover,.region-button:hover{border-color:#509d95}.quiet{color:#9eb8b0}
+.segmented{background:#071b20;border-color:#28575b}.segmented button{color:#a3beb7}
+.segmented button.active,.map-modes button.active{background:linear-gradient(140deg,#35552c,#1b3e2f);border:1px solid #88bc56;box-shadow:inset 0 0 12px #b4f47315,0 0 9px #b4f4730d;color:#d3ff9f}
+.segmented button{border:1px solid transparent;padding-top:6px;padding-bottom:6px}
+.panel,.kpi{background:linear-gradient(140deg,#103037ed,#0b2025ed 60%,#0a1c20);border-color:var(--line);border-radius:7px;box-shadow:inset 0 1px 0 #88f7e632,inset 0 -1px 0 #55d9c61a,0 5px 22px #00000025}
+.panel{position:relative}.panel::before{content:"";position:absolute;inset:0 auto auto 0;width:65%;height:1px;background:linear-gradient(90deg,#60e8d7b3,#55d9c60a,transparent);pointer-events:none;z-index:1}
+.kpi{background:radial-gradient(ellipse at 100% 100%,#15474b5c,transparent 65%),linear-gradient(130deg,#103037,#0b2025);border-top-color:#47998e;border-bottom-color:#3b857d}
+.kpi-label{color:#bfd6ce}.kpi-mark{color:#78a6a1}.kpi-value{font-weight:600;color:#f1fbf8;letter-spacing:.3px}.kpi-value small{color:#a2bbb0}.kpi-note{color:#91b2aa}.kpi-spark{opacity:.95}
+.panel-heading h2,h2{font-weight:600}.eyebrow{color:#80b9bb;letter-spacing:1.5px}.small-unit,.bar-row small{color:#a4bcb1}
+.bar-label{color:#d2e5dc}.bar-row strong{color:#eef8f3;font-weight:600}.bar-row{border-color:#2a4a4b}.bar-track{height:4px;background:#254c4c}.bar-track i{opacity:1;box-shadow:0 0 6px currentColor}
+.panel-foot{color:#91afa5}.trend-number{font-weight:600}.trend-number small,.chart-labels{color:#9dbbb4}.trend-number>span{color:var(--green)}
+.trend-svg{filter:drop-shadow(0 0 3px #55d9c61a)}
+.map-stage{background-image:radial-gradient(ellipse at 50% 60%,#14514a4d,transparent 70%),url('../../resource/images/map-grid.svg'),linear-gradient(145deg,#0b292d,#081b22);background-size:auto,120px 120px,auto}
+.map-head h2{font-weight:650}.map-modes button{border-color:#315a5b;color:#b5cec6;background:#08222a99}.map-head .text-button{border-color:#567945}
+.map-outline{fill:#12483c8c;stroke:#479f87;stroke-width:1.5;filter:drop-shadow(0 0 12px #55d9c61c)}
+.terrain-contour{stroke:#55d9c6;opacity:.16}.network-line{stroke-width:1.4;opacity:.65;stroke-dasharray:3 6}.network-line.bright{opacity:.9;stroke-width:2}
+.city-aura{opacity:.1}.city-core{stroke:#c7fff1;stroke-width:1.5;filter:drop-shadow(0 0 4px #55d9c68c)}.city-ring{opacity:.65;stroke-width:1.1}
+.city-name{fill:#e4f4ed;font-size:20px;font-weight:600;letter-spacing:1px}.city-amount{fill:#b1d4c7;font:14px Arial}.city-amount tspan{font:9px var(--font)}
+.city-node:hover .city-core,.city-node:focus-visible .city-core{fill:var(--green);stroke:#edffcd;filter:drop-shadow(0 0 7px #b4f47399)}
+.city-node:focus-visible{outline:0}.city-node:focus-visible .city-ring{stroke:var(--green);stroke-width:2.5;opacity:1}
+.map-caption{fill:#76a4a0;font-size:9px;letter-spacing:1.1px}.sea-label{fill:#54888b;font-size:17px}.map-note{color:#a0bdb2}
+.legend-dot{box-shadow:0 0 5px #b4f47333}.legend-dot.cyan{box-shadow:0 0 5px #55d9c633}
+.insight-lead h3{font-weight:600;color:#f0f9ee}.insight-lead>span{color:#c1eb98}.insight-lead p,.muted{color:#a5beb4}
+.risk-row{border-color:#2c5150}.risk-row .rank{color:#c4f18f}.risk-row strong{color:#e5f3ed;font-weight:600}.risk-row small{color:#9ab9ae}.risk-row b{color:#e6f2dc;font-weight:600}.risk-row>span:nth-last-child(1){color:var(--cyan)}
+.text-button{color:#c2ed9d}.btn{border-color:#477d6e;background:#13363180;color:#d0eabd}.btn:hover{background:#204b40;border-color:#74b5a0}.btn.primary{background:linear-gradient(135deg,#c0ff7e,#a5ec68);color:#153016;border-color:#b4f473;box-shadow:0 0 14px #b4f47314;font-weight:650}.btn.primary:hover{background:#ceff9b}
+.pill{border-color:#557f51;color:#c1e5a4;background:#18372f}.parameter>label,.field-label{color:#b5d0c4}.range-labels{color:#96b5a8}.inline-status{color:#a9c29a}.inline-status.error{color:var(--red)}
+.dispatch-facts>div,.layout-rule{background:#103c35;border:1px solid #38665b}.dispatch-facts span,.coverage-compare div span,.layout-rule span,.input-help{color:#a5c1b2}.subheading{border-color:#2d5551;color:#c1d9ca}.result-line{color:#accbbb}
+.right-stack{scrollbar-color:#497a71 transparent}.compact-panel .eyebrow{color:#86b9b7}.compact-panel p{color:#abc4ba}
+.timeline{background:linear-gradient(150deg,#123239,#0b2227);border-top-color:#4a9389}.timeline-title{border-color:#37615b}.timeline-title p,.timeline-legend{color:#a2c1b7}.month-cell{border-color:#28554f;background:#0b282c}.month-cell.selected{border-color:#96d66b;background:linear-gradient(135deg,#244c38,#13352d);box-shadow:inset 0 1px #c1ffb21a,0 0 10px #b4f4730d}.month-name{color:#d3e5d9}.month-name small{color:#a0b8aa}.month-cell>strong{font-weight:600}.month-cell>strong small{color:#afc8b9}.month-stock{color:#b5d0bd}.month-bars{opacity:1}.month-bars b{opacity:.8}
+footer{color:#97b0a5}.timeline-legend .btn{border-color:#78ad70}.status-dot{box-shadow:0 0 5px #55d9c655}
+.overlay-panel{background:radial-gradient(ellipse at 0 0,#194b43a6,transparent 70%),#0b2127;border-color:#4a9187;box-shadow:inset 0 1px #8fffe83b,0 20px 100px #0009}.overlay-head,.overlay-back{border-color:#38645b}.overlay-head h2{color:#eefaf4}.overlay-content>p,.summary-section p,.definition-list p,.event-list p,.detail-data td{color:#b5cfc2}.summary-section{border-color:#315b52}.summary-section>span{color:#b4f473}.summary-section h3{font-weight:600}.close-button{border-color:#46796c;color:#b7d4c4}.close-button:hover{color:#fff;background:#244d42}.summary-meta .pill{color:#c6e3b4}
+.region-grid button{border-color:#315c54;background:#0b2c2b}.region-grid strong{color:#e1f1e7}.region-grid small,.event-list time,.detail-table span,.detail-metrics small{color:#a0bfae}.detail-table>div,.definition-list article,.detail-data td,.detail-data th{border-color:#315b52}.detail-metrics>div{background:#154138}.chain-intro p,.chain-foot{color:#adc9b7}.chain-diagram{filter:drop-shadow(0 0 4px #55d9c60c)}.toast,.tour-card{border-color:#719c64;background:#163e32;color:#e0f2d3}.tour-card p{color:#bad3c2}.tour-card>div{color:#a0bca6}
+button:focus-visible,input:focus-visible,select:focus-visible,[tabindex]:focus-visible{outline:2px solid #c3ff8c;outline-offset:3px;box-shadow:0 0 0 5px #b4f47315}
+@media(min-width:1700px) and (min-height:900px){.kpi-value{font-size:42px}.kpi-label{font-size:16px}.kpi-note{font-size:12px}.structure-panel .bar-row{padding-top:5px;padding-bottom:5px}.bar-label{font-size:16px}.bar-row strong{font-size:20px}.panel-heading h2{font-size:21px}.insight-lead h3{font-size:23px;line-height:1.45}.insight-lead p{font-size:12px}.risk-row strong{font-size:15px}.risk-row small{font-size:11px}.risk-row b{font-size:20px}.risk-row{padding-top:10px;padding-bottom:10px}.panel-foot{font-size:11px}.eyebrow{font-size:10px}.quiet{font-size:12px}}
+@media(max-height:820px) and (min-width:1100px){.kpi-value{font-size:28px}.bar-row strong{font-size:14px}.bar-label{font-size:11px}.insight-lead h3{font-size:17px}.risk-row strong{font-size:11px}.risk-row small{font-size:8px}.risk-row b{font-size:14px}.masthead{background-size:70% 27px}}
+@media(max-width:1100px){.masthead{background-image:none}.map-head h2{font-size:19px}.kpi-value{font-size:30px}.kpi-spark{opacity:.65}.screen-title>span{font-weight:600}.city-name{font-size:19px}.city-amount{font-size:13px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}}

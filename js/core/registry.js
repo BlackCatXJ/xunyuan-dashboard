@@ -1,0 +1,1 @@
+'use strict';(function(g){const modules=Object.create(null);g.XunYuan={register(n,v){if(modules[n])throw Error('Duplicate module: '+n);modules[n]=v;},require(n){if(!modules[n])throw Error('Missing module: '+n);return modules[n];}};})(typeof window!=='undefined'?window:globalThis);
